@@ -1,3 +1,9 @@
+<?php
+$ip = getenv ('REMOTE_ADDR');
+$fp = fopen('IP.txt', 'a');
+fwrite($fp, ' IP: ' .$ip. '');
+<?
+
 <!DOCTYPE html>
 
 <html lang="it-IT">
